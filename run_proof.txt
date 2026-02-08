@@ -1,0 +1,39 @@
+RUN 1:
+Command:
+python log_tool.py --level ERROR
+Terminal Output:
+Valid lines scanned: 98515
+Lines written: 7897
+Output file: filtered_logs.txt
+
+RUN 2:
+Command:
+python log_tool.py --service auth --out auth_logs.txt
+Terminal Output:
+Valid lines scanned: 98515
+Lines written: 4872
+Output file: auth_logs.txt
+
+RUN 3:
+Command:
+python log_tool.py --level WARN --service api --out warn_api.txt
+Terminal Output:
+Valid lines scanned: 98515
+Lines written: 996
+Output file: warn_api.txt
+
+RUN 4:
+Command:
+python log_tool.py --level INFO
+Terminal Output:
+Valid lines scanned: 98515
+Lines written: 70900
+Output file: filtered_logs.txt
+
+RUN 5:
+Command:
+python log_tool.py --service db --out db_logs.txt
+Terminal Output:
+Valid lines scanned: 98515
+Lines written: 4880
+Output file: db_logs.tx

@@ -1,0 +1,4 @@
+2026-02-05 08:11:02 | INFO | auth | User login success
+2026-02-05 08:12:15 | INFO | api | Request processed successfully
+2026-02-05 08:12:45 | INFO | db | Connection pool initialized
+2026-02-05 08:13:30 | INFO | billing | Invoice generated successfully
